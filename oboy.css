@@ -1,0 +1,433 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+
+    
+    background-size: 100%;
+}
+.toxic ul{
+    list-style: none;
+}
+.artist-dedic-card{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: auto;
+}
+.artist-dedic-card img{
+    width: 100%;
+    height: 100%;
+}
+.myh3{
+    color: white;
+}
+.general{
+    text-align: center;
+    color: white;
+}
+.our-service h3{
+    color: white
+}
+.our-service p{
+    color: grey;
+}
+.our-service img{
+    width: 350px;
+    height: 500px;
+    float: right;
+    
+}
+h2{
+    text-align: center;
+    color: goldenrod;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+html,body{
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+.service-card{
+    
+    padding: 2px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right,rgb(253, 223, 56), gold,gold,rgb(236, 194, 89),goldenrod,gold,goldenrod,goldenrod);
+}
+.tey img{
+    padding-bottom: 0.2rem;
+    width: 123.5px;
+    height: 100px;
+}
+.second-service-card{
+    
+    
+    width: 95px;
+    margin: auto;
+    height: 95px;
+    background-image:url("image/about-bg.jpg");
+    background-attachment:fixed ;
+    background-size: cover;
+    
+}
+.aoc-real-img{
+    text-align: center;
+}
+a{
+    color: goldenrod;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: grey;
+}
+button{
+    color: black;
+}
+
+.artist-card{
+    margin: auto;
+    width: 270px;
+    height: 270px;
+    
+    
+}
+.artist-card img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* .navbar img{
+    border-radius: 60px;
+} */
+.welcome{
+    text-align: center;
+    color: white;
+}
+.welcome p{
+    color: goldenrod;
+}
+.our-event{
+    /* text-align: justify ; */
+    color: white;
+}
+.our-event h4{
+    color: goldenrod;
+}
+.event-card{
+     text-align: justify ;
+    margin: auto;
+    width: 350px;
+    height: 270px;
+    
+    background-color: gray;
+}
+.event-content{
+    padding-left: 0.3rem;
+}
+.event-card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+body{
+    background-image: url("image/about-bg.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.button{
+    background-image: url("image/about-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    border: 3px solid goldenrod;
+    width: 250px;
+    color: white;
+    padding: 12px;
+    
+    margin: auto;
+    
+   
+    font-size: 20px;
+}
+.button:hover{
+   background-image:none;
+   background-color: goldenrod;
+}
+.button1{
+    background-color: goldenrod;
+    width: 250px;
+    padding: 12px;
+   
+    margin: auto;
+    border: none;
+   
+    font-size: 20px;
+}
+.button1:hover{
+   background-color: grey;
+}
+footer{
+    padding:3rem 0;
+    text-align: justify;
+    background-color:  black;
+    object-fit: cover;
+}
+footer a{
+    color: grey;
+
+}
+footer h4{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid goldenrod;
+    color: white;
+    
+}
+footer a:hover{
+    color: goldenrod;
+}
+#inp{
+    width: 100%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom: 2px solid gray;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+}
+#inp::placeholder{
+    color: white;
+}
+#inp2{
+    height: 150px;
+    width: 100%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom: 2px solid gray;
+    margin-bottom: 2rem;
+}
+#inp2::placeholder{
+    color: white;
+}
+#inp3{
+    background-color: goldenrod;
+    width: 200px;
+    padding: 10px;
+    
+    margin: auto;
+    border: none;
+   
+    font-size: 20px;
+}
+#inp3:hover{
+   background-color: grey;
+}
+/* .our-team{
+    text-align: justify;
+
+} */
+.our-team h3{
+    color: white;
+}
+.our-team span{
+    color: goldenrod;
+}
+.our-team p{
+    color: gray;
+}
+.sec-team-card{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    
+}
+.sec-team-card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.team-card{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    
+    
+}
+.team-card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.short-about{
+    padding: 2rem;
+    color: white;
+  
+  background-color:  transparent;
+}
+.short-about p{
+    text-align: justify;
+}
+
+.wel-cont{
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+.cob{
+    width: 250px;
+    height: 250px;
+}
+.alert{
+    color: white !important;
+}
+.alert:hover{
+    color: goldenrod !important;
+}
+.general{
+    background-color: rgba(0, 0, 0, 0.46);
+}
+.h-wel{
+    font-size: 65px;
+}
+
+@media(max-width:900px){
+    .event-card{
+   
+    width: 270px;
+    height: 250px;
+    
+    background-color: gray;
+}
+    .container{
+        padding-right:0.5rem ;
+        padding-left:0.5rem ;
+    }
+   
+    .wel-cont{
+      
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+    .h-wel{
+    font-size: 20px;
+}
+    .button{
+        width: 200px;
+        padding: 10px;
+    }
+}
+@media(max-width:900px){
+    .event-card{
+   
+    width: 270px;
+    height: 250px;
+    
+    background-color: gray;
+}
+    .container{
+        padding-right:0.5rem ;
+        padding-left:0.5rem ;
+    }
+   
+    .wel-cont{
+      
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+    .h-wel{
+    font-size: 40px;
+}
+    .button{
+        width: 200px;
+        padding: 10px;
+    }
+}
+@media(max-width:650px){
+    .artist-dedic-card{
+        width: 250px;
+        height: 250px;
+        background-color: black;
+        margin: auto;
+    }
+    .our-team{
+        text-align: center;
+    
+    }
+    .service-card{
+        margin: auto;
+    }
+    .our-event{
+        text-align: center;
+        color: white;
+    }
+    .team-card{
+        width: 265px;
+        height: 300px;
+        background-color: grey;
+        margin: auto;
+    }
+    .sec-team-card{
+        margin: auto;
+    }
+    .our-service{
+        text-align: center;
+    
+    }
+    .event-card{
+        text-align: center ;
+       margin: auto;
+       width: 350px;
+       height: 270px;
+       
+       background-color: gray;
+   }
+    .our-event{
+        text-align: center;
+        color: white;
+    }
+    .navbar img{
+        border-radius: 60px;
+        width: 60px;
+    }
+    .event-card{
+   
+    width: 270px;
+    height: 250px;
+    
+    background-color: gray;
+}
+    .container{
+        padding-right:1rem ;
+        padding-left:1rem ;
+    }
+   
+    .wel-cont{
+      
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+    .h-wel{
+    font-size: 20px;
+}
+    .button{
+        width: 200px;
+        padding: 10px;
+    }
+}
